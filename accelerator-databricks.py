@@ -6,6 +6,8 @@ prod_token = sys.argv[1]
 prod_host = sys.argv[2]
 notebook_name = sys.argv[3]
 
+print(prod_token, prod_host, notebook_name)
+
 db = DatabricksAPI(
     host=prod_host,
     token=prod_token
