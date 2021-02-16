@@ -13,3 +13,7 @@ To start, define a master branch folder in Databricks workspace - this is the on
 Please note this is done at this time at a per notebook level. If you have multiple notebooks, you will need some orchestrating logic in the Pipeline to clone multiple notebooks.
 
 For creating a new feature branch, create the feature branch in Azure DevOps, clone the notebook from master folder in Databricks, and sync it to the newly created branch.
+
+Here is a sample pipeline definition in Azure DevOps (using the classic editor), though of course it can look very different depending on the scenario and pipeline experience (e.g. with YAML file definition).
+
+![adbado](/image/adb-ado-pipeline.PNG)
